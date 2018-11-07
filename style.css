@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+[class*="col-"] {
+    
+    padding: 15px;
+    border: 1px solid red;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
+
+.jumbotron {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.navbar-default {
+    border: none;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-center img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-default .navbar-center>li>a {
+    color: #86D7E4;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.navbar .btn {
+    padding: 5px 10px 5px 10px;
+    margin-top: 10px;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    background-color: transparent;
+    color: #86D7E4;
+}
+
+.navbar-default .navbar-nav > li.mailto > a:hover, .navbar-default .navbar-nav > li.mailto > a:focus {
+    color: white;
+    background-color: #86D7E4;
+    border-color: #86D7E4;
+}
+ 
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #86D7E4;
+}
+
+.headline {
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    border-bottom: 1px solid #86D7E4;
+}
+
+.dev-work {
+    text-align: right;
+}
